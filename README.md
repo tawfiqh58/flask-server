@@ -25,3 +25,6 @@ and import `Flask`
 `@app.route("/")` is a decorator to create API
 
 That's it!
+
+Run this app  
+$ flask --app server run
