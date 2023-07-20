@@ -28,9 +28,9 @@ That's it!
 
 Run this app  
 $ . .venv/bin/activate
-$ flask --app server run
+$ flask --app server.py run
 
 Debug ON  
-$ flask --app main.py --debug run
+$ flask --app server.py --debug run
 
 Note: Flask will automatically reload you app.
