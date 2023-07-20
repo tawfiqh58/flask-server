@@ -27,4 +27,10 @@ and import `Flask`
 That's it!
 
 Run this app  
+$ . .venv/bin/activate
 $ flask --app server run
+
+Debug ON  
+$ flask --app main.py --debug run
+
+Note: Flask will automatically reload you app.
