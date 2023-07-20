@@ -14,7 +14,6 @@ python3 -m venv .venv
 . .venv/bin/activate
 
 pip install Flask
-
 ```
 
 Note: You have to have python or python3 and pip or pip3 installed  
@@ -27,10 +26,16 @@ and import `Flask`
 That's it!
 
 Run this app  
+
+```shell
 $ . .venv/bin/activate
 $ flask --app server.py run
+```
 
 Debug ON  
+
+```shell
 $ flask --app server.py --debug run
+```
 
 Note: Flask will automatically reload you app.
