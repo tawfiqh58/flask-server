@@ -1,0 +1,45 @@
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyc/
+*.pyo/
+*.egg-info/
+
+# Flask-specific
+instance/
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Environment-specific
+*.env
+.env.*
+
+# Log files
+*.log
+
+# Compiled files
+*.class
+*.o
+
+# Dependency directories
+venv/
+.venv/
+env/
+env.bak/
+env.tmp/
+
+# Package files
+*.whl
+*.egg
+*.egg-info/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore .env files with sensitive information (customize this based on your needs)
+.env
